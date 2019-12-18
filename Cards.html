@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      /* CSS 코드 작성 */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- html 코드작성 -->
+      <div class="card">
+        <div class="card-body">기본 카드</div>
+      </div>
+      <br />
+      <div class="card">
+        <div class="card-header">헤더</div>
+        <div class="card-body">바디</div>
+        <div class="card-footer">푸터</div>
+      </div>
+      <br />
+      <!-- 기본 카드 -->
+      <div class="card" style="width: 300px;">
+        <div class="card-body">
+          <h4 class="card-title">카드 제목</h4>
+          <h6 class="card-subtitle text-muted">소제목</h6>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            laborum eaque dicta molestiae ipsum quae dolor in, mollitia tenetur
+            dolorem quaerat aliquam, eveniet suscipit quibusdam numquam quidem
+            rerum nam dolore.
+          </p>
+          <a href="" class="btn btn-outline-primary">Read More</a>
+        </div>
+      </div>
+      <!-- 이미지 카드-->
+      <div class="card">
+        <img
+          src="https://source.unsplash.com/random/300x200"
+          alt=""
+          class="card-img-top"
+        />
+        <div class="card-body">
+          <h4 class="card-title">카드 제목</h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            laborum eaque dicta molestiae ipsum quae dolor in, mollitia tenetur
+            dolorem quaerat aliquam, eveniet suscipit quibusdam numquam quidem
+            rerum nam dolore.
+          </p>
+          <a href="" class="btn btn-outline-primary">Read More</a>
+        </div>
+      </div>
+      <br /><br />
+      <!-- 헤더가 있는 카드 -->
+      <div class="card text-center">
+        <div class="card-header">My Card</div>
+        <div class="card-body">
+          <h4 class="card-title">카드 제목</h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            laborum eaque dicta molestiae ipsum quae dolor in, mollitia tenetur
+            dolorem quaerat aliquam, eveniet suscipit quibusdam numquam quidem
+            rerum nam dolore.
+          </p>
+          <a href="" class="btn btn-danger">Read More</a>
+        </div>
+        <div class="card-footer text-muted">2 Days ago</div>
+      </div>
+      <!-- 카드의 이미지 위에 글자 -->
+      <div class="card text-white">
+        <img
+          src="https://source.unsplash.com/random/1000x300"
+          alt=""
+          class="card-img"
+        />
+        <div class="card-img-overlay">
+          <h4 class="h4 card-title">카드 제목</h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error
+            eligendi inventore eum illum hic culpa odit ea suscipit? Quisquam
+            sequi nemo laboriosam nobis omnis dolorum odio minus at amet.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+      <!-- 이미지 없는 배경색 카드 -->
+      <div class="card bg-warning text-white mb-3">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+            cupiditate nemo facere ipsam voluptas dolorum, iste odit qui non ut
+            voluptatum consectetur debitis architecto esse minus quod id dolorem
+            illo.
+          </p>
+        </div>
+      </div>
+      <!-- 보더라인 카드 -->
+      <div class="card border-primary mb-3">
+        <div class="card-body">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+            cupiditate nemo facere ipsam voluptas dolorum, iste odit qui non ut
+            voluptatum consectetur debitis architecto esse minus quod id dolorem
+            illo.
+          </p>
+        </div>
+      </div>
+      <div class="card border-danger mb-3">
+        <div class="card-body">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+            cupiditate nemo facere ipsam voluptas dolorum, iste odit qui non ut
+            voluptatum consectetur debitis architecto esse minus quod id dolorem
+            illo.
+          </p>
+        </div>
+      </div>
+      <div class="card border-info mb-3">
+        <div class="card-body">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+            cupiditate nemo facere ipsam voluptas dolorum, iste odit qui non ut
+            voluptatum consectetur debitis architecto esse minus quod id dolorem
+            illo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 예제 -->
+    <!-- container-fulid : 폭에 따라 자동 조정 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card text-white bg-primary m-3" style="max-width:18rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h6>Primary card title</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur facilis animi tenetur quas fugiat deleniti quis.
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-secondary m-3" style="max-width:18rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h6>Secondary card title</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur facilis animi tenetur quas fugiat deleniti quis.
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-success m-3" style="max-width:18rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h6>Success card title</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur facilis animi tenetur quas fugiat deleniti quis.
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-danger m-3" style="max-width:18rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h6>Danger card title</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur facilis animi tenetur quas fugiat deleniti quis.
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-warning m-3" style="max-width:18rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h6>Warning card title</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur facilis animi tenetur quas fugiat deleniti quis.
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-info m-3" style="max-width:18rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h6>Info card title</h6>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              consequatur facilis animi tenetur quas fugiat deleniti quis.
+            </p>
+          </div>
+        </div>
+      </div><br><br>
+      <!-- 예제 끝 -->
+
+      <!-- 카드 컬럼 -->
+      <div class="card-columns">
+        <!-- 카드들을 이 안에 넣음 -->
+        <!-- img-fluid는 max-width=100% height를 auto로 맞춰줌 -->
+        <div class="card">
+            <img
+              src="https://source.unsplash.com/random/290x180"
+              alt=""
+              class="card-img-top img-fluid"
+            />
+            <div class="card-body">
+              <h4 class="card-title">카드 제목</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                laborum eaque dicta molestiae ipsum quae dolor in.
+              </p>
+              <a href="" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card p-3">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facere, cupiditate suscipit, porro ipsum libero nobis dicta eligendi.</p>
+              <footer>
+                <small>
+                  Someone famous in
+                  <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card bg-success text-white">
+              <div class="card-header">Card</div>
+              <div class="card-body">
+                <h4>Card Title</h4>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                    laborum eaque dicta molestiae ipsum quae dolor in.
+                </p>
+              </div>
+            </div>
+          <div class="card">
+              <img
+                src="https://source.unsplash.com/random/300x200"
+                alt=""
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">카드 제목</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                  laborum eaque dicta molestiae ipsum quae dolor in.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+                <a href="" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white p-3">
+                <blockquote>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facere, cupiditate suscipit, porro ipsum libero nobis dicta eligendi.</p>
+                  <footer>
+                    <small>
+                      Someone famous in
+                      <cite title="Source Title">Source Title</cite>
+                    </small>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="card">
+                  <img
+                    src="https://source.unsplash.com/random/280x200"
+                    alt=""
+                    class="card-img-bottom img-fluid"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">사진 이미지</h4>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                      laborum eaque dicta molestiae ipsum quae dolor in.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                    <a href="" class="btn btn-outline-danger">More text</a>
+                  </div>
+                </div>
+        </div>
+
+      </div>
+      <!-- 카드 컬럼 끝 -->
+    </div>
+    <!-- 컨테이너 끝 -->
+    <!-- jQuery , bundle.js -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      // 자바스크립트 코드 작성
+    </script>
+  </body>
+</html>
